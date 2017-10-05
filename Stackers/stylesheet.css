@@ -1,0 +1,35 @@
+body {
+  margin: 150px 200px 150px 300px;
+}
+
+header {
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: center;
+  padding-right: 280px;
+  margin-bottom: 40px;
+}
+#stackers div {
+  width: 300px;
+  height: 130px;
+  background-color: white;
+  border-style: solid;
+  border-color: #8585e0;
+
+}
+
+#stack1 {
+  position: static;
+}
+
+#stack2{
+  position: relative;
+  top: -3px;
+  left: 150px;
+}
+
+#stack3{
+  position: relative;
+  top: -3px;
+  left: 300px;
+}

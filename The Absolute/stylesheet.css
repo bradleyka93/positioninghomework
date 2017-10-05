@@ -1,0 +1,61 @@
+body {
+  margin: 100px;
+}
+
+.rectangle {
+  position: relative;
+  height: 500px;
+  width: 700px;
+  border-style: solid;
+  border-color: black;
+}
+
+.box1 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: -2px;
+  left: -2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.box2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  bottom: -2px;
+  left: -2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.box3 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: -2px;
+  left: 597px;
+  border-style: solid;
+  border-color: black;
+}
+
+.box4 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  bottom: -2px;
+  left: 597px;
+  border-style: solid;
+  border-color: black;
+}
+
+.box5 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 200px;
+  left: 300px;
+  border-style: solid;
+  border-color: black;
+}
